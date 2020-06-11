@@ -1,4 +1,4 @@
-# Coronavirus Michigan Overview Tracking Documentation
+# Coronavirus Michigan COVID-19 Overview Tracking
 Four spreadsheets aggregating COVID probable and confirmed cases counts and demographics released daily by the Michigan Department of Health &amp; Human Services
 
 -------------------------------------------
