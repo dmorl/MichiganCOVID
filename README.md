@@ -5,7 +5,7 @@ Four spreadsheets aggregating COVID probable and confirmed cases counts and demo
 
 **Author:** Daria Orlowska <br />
 **Contact:** daria.orlowska@wmich.edu <br />
-**Last Updated:** 2020-06-13 21:09 <br />
+**Last Updated:** 2020-06-15 20:48 <br />
 
 -------------------------------------------
 
@@ -15,7 +15,7 @@ Four spreadsheets aggregating COVID probable and confirmed cases counts and demo
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html (obsolete) and https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html (active) <br />
 **Description:** A spreadsheet converting tabular data of confirmed COVID-19 cases in Michigan released by the Michigan Department of Health & Human Services <br />
-**Date range:** 2020-03-10 through 2020-06-13 <br />
+**Date range:** 2020-03-10 through 2020-06-15 <br />
 **Missing dates:** 2020-03-20 <br />
 
 **Author notes:** This spreadsheet combines multiple tables with counts and demographics about confirmed COVID-19 cases in Michigan for ease of use. Variables are parsed into sections providing additional information about each table <br />
@@ -27,7 +27,7 @@ As of 2020-06-05, Michigan.gov has moved over to the Microsoft Power BI data das
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html (obsolete) and https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html (active) <br />
 **Description:** A spreadsheet converting tabular data of confirmed COVID-19 deceased cases in Michigan released by the Michigan Department of Health & Human Services <br />
-**Date range:** 2020-03-10 through 2020-06-13 <br />
+**Date range:** 2020-03-10 through 2020-06-15 <br />
 **Missing dates:** 2020-03-20 <br />
 
 **Author notes:** This spreadsheet combines multiple tables with counts and demographics about confirmed COVID-19 deceased cases in Michigan for ease of use. Variables are parsed into sections providing additional information about each table <br />
@@ -39,10 +39,12 @@ As of 2020-06-05, Michigan.gov has moved over to the Microsoft Power BI data das
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html <br />
 **Description:** A spreadsheet converting dashboard data of COVID-19 probable cases in Michigan released by the Michigan Department of Health & Human Services <br />
-**Date range:** 2020-06-05 through 2020-06-13 <br />
+**Date range:** 2020-06-05 through 2020-06-15 <br />
 
 **Author notes:** As of 2020-06-05, Michigan.gov has moved over to the Microsoft Power BI data dashboard and began reporting probable COVID cases. However, the Author did not begin collecting demographic information on probable cases until 2020-06-07 <br />
 Probable cases can increase as more unconfirmed COVID-19 cases are identified, and decrease as these probable cases are confirmed and added to the official COVID-19 case count, or disconfirmed as cases and removed from the spreadsheet <br />
+
+On 2020-06-13, MDHHS released the downloadable file "Confirmed and Probable Cases by County by Date" ranging from March 2020 onwards. The Author is currently in the process of adding these numbers to the existing spreadsheet <br />
 
 ---
 
@@ -50,10 +52,12 @@ Probable cases can increase as more unconfirmed COVID-19 cases are identified, a
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html <br />
 **Description:** A spreadsheet converting dashboard data of probable deceased COVID-19 cases in Michigan released by the Michigan Department of Health & Human Services <br />
-**Date range:** 2020-06-05 through 2020-06-13 <br />
+**Date range:** 2020-06-05 through 2020-06-15 <br />
 
 **Author notes:** As of 2020-06-05, Michigan.gov has moved over to the Microsoft Power BI data dashboard and began reporting probable COVID cases. However, the Author did not begin collecting demographic information on probable cases until 2020-06-07 <br />
 Probable deceased cases can increase as more unconfirmed COVID-19 cases are identified, and decrease as these probable deceased cases are confirmed and added to the official COVID-19 deceased count, or disconfirmed as deceased cases and removed from the spreadsheet <br />
+
+On 2020-06-13, MDHHS released the downloadable file "Confirmed and Probable Cases by County by Date" ranging from March 2020 onwards. The Author is currently in the process of adding these numbers to the existing spreadsheet <br />
 
 -------------------------------------------
 
