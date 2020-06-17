@@ -5,7 +5,7 @@ Four spreadsheets aggregating COVID probable and confirmed cases counts and demo
 
 **Author:** Daria Orlowska <br />
 **Contact:** daria.orlowska@wmich.edu <br />
-**Last Updated:** 2020-06-16 19:35 <br />
+**Last Updated:** 2020-06-17 16:48 <br />
 
 -------------------------------------------
 
@@ -14,7 +14,7 @@ Four spreadsheets aggregating COVID probable and confirmed cases counts and demo
 ### MichiganOverview_Cases.csv
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html (obsolete) and https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html (active) <br />
-**Description:** A spreadsheet converting tabular data of confirmed COVID-19 cases in Michigan released by the Michigan Department of Health & Human Services <br />
+**Description:** A spreadsheet converting tabular data of confirmed COVID-19 cases in Michigan released by the Michigan Department of Health & Human Services. Confirmed cases only include individuals who have had a positive diagnostic laboratory test for COVID-19 <br />
 **Date range:** 2020-03-10 through 2020-06-16 <br />
 **Missing dates:** 2020-03-20 <br />
 
@@ -26,7 +26,7 @@ As of 2020-06-05, Michigan.gov has moved over to the Microsoft Power BI data das
 ### MichiganOverview_Deceased.csv
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html (obsolete) and https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html (active) <br />
-**Description:** A spreadsheet converting tabular data of confirmed COVID-19 deceased cases in Michigan released by the Michigan Department of Health & Human Services <br />
+**Description:** A spreadsheet converting tabular data of confirmed COVID-19 deceased cases in Michigan released by the Michigan Department of Health & Human Services. Confirmed deaths include individuals who meet one or more of the following conditions: 1) Have been identified as a confirmed case and classified as deceased as a result of a case investigation in the Michigan Disease Surveillance System (MDSS). MDSS is the database used by state and local health department to monitor reportable diseases like COVID-19; 2) have been identified as a confirmed case in MDSS had have a death certificate with COVID-19 listed as a cause of death; 3) have been identified as a confirmed case in MDSS and die within 30 days of onset of COVID-19 infection and have a death certificate which classifies their manner death as 'natural' <br />
 **Date range:** 2020-03-10 through 2020-06-16 <br />
 **Missing dates:** 2020-03-20 <br />
 
@@ -38,7 +38,7 @@ As of 2020-06-05, Michigan.gov has moved over to the Microsoft Power BI data das
 ### MichiganOverview_ProbableCases.csv
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html <br />
-**Description:** A spreadsheet converting dashboard data of COVID-19 probable cases in Michigan released by the Michigan Department of Health & Human Services <br />
+**Description:** A spreadsheet converting dashboard data of COVID-19 probable cases in Michigan released by the Michigan Department of Health & Human Services. Probable cases include individuals who have symptoms consistent with COVID-19 and an epidemiologic link to a confirmed case or a positive serology (antibody) test, but do not have a positive diagnostic laboratory test for COVID-19 and individuals with a positive serology (antibody) test for COVID-19 and an epidemiologic link to a confirmed case. The number of probable cases can change daily based on information obtained through the health department investigation. Probable cases can be re-classified as a confirmed case or determined to not be a case <br />
 **Date range:** 2020-03-01 through 2020-06-16 <br />
 
 **Author notes:** As of 2020-06-05, Michigan.gov has moved over to the Microsoft Power BI data dashboard and began reporting probable COVID cases. However, the Author did not begin collecting demographic information on probable cases until 2020-06-07 <br />
@@ -51,7 +51,7 @@ On 2020-06-13, MDHHS released the downloadable file "Confirmed and Probable Case
 ### MichiganOverview__ProbableDeceased.csv
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html <br />
-**Description:** A spreadsheet converting dashboard data of probable deceased COVID-19 cases in Michigan released by the Michigan Department of Health & Human Services <br />
+**Description:** A spreadsheet converting dashboard data of probable deceased COVID-19 cases in Michigan released by the Michigan Department of Health & Human Services. Probable deaths include individuals who have COVID indicated as a cause of death on their death certificate but have not had a positive diagnostic laboratory test <br />
 **Date range:** 2020-03-01 through 2020-06-16 <br />
 
 **Author notes:** As of 2020-06-05, Michigan.gov has moved over to the Microsoft Power BI data dashboard and began reporting probable COVID cases. However, the Author did not begin collecting demographic information on probable cases until 2020-06-07 <br />
@@ -97,7 +97,7 @@ Columns D through CH
 * Description: Names of Michigan counties reporting confirmed COVID cases, in the format C_<County>
 * Values: Integer
 * Missing values reason: Blank cells indicate lack of confirmed cases at the time of the report <br />
-Note: Originally, counties were only added to spreadsheet at the time of a positive case, but to avoid updating column references in the documentation, all 83 Michigan counties have been added
+Note: Originally, counties were only added to spreadsheet at the time of a positive case, but to avoid updating column references in the documentation, all 83 Michigan counties have been added. County is based on the county of residence
 
 C_MDOC
 * Column: CI
@@ -145,7 +145,7 @@ C_Probable
 * Description: Probable but unconfirmed (by testing) total COVID cases in Michigan. Obtained from the tab "Current Status", in the subsection "Current Totals" 
 * Values: Integer
 * Missing values reason: This value may be missing if not applicable or not provided <br />
-Note: First introduced 2020-06-05
+Note: First introduced 2020-06-05. Probable cases include individuals who have symptoms consistent with COVID-19 and an epidemiologic link to a confirmed case or a positive serology (antibody) test, but do not have a positive diagnostic laboratory test for COVID-19 and individuals with a positive serology (antibody) test for COVID-19 and an epidemiologic link to a confirmed case. The number of probable cases can change daily based on information obtained through the health department investigation. Probable cases can be re-classified as a confirmed case or determined to not be a case
 
 C_Notes
 * Column: CP
@@ -382,7 +382,7 @@ Columns D through CH
 * Description: Names of Michigan counties reporting confirmed deceased COVID cases, using the format D_<County>
 * Values: Integer
 * Missing values reason: Blank cells indicate lack of confirmed deceased cases at the time of the report <br />
-Note: Originally, counties were only added to spreadsheet at the time of a death, but to avoid updating column references in the documentation, all 83 Michigan counties have been added
+Note: Originally, counties were only added to spreadsheet at the time of a death, but to avoid updating column references in the documentation, all 83 Michigan counties have been added. County is based on the county of residence
 
 D_MDOC
 * Column: CI
@@ -430,7 +430,7 @@ D_Probable
 * Description: Probable but unconfirmed total deceased COVID cases in Michigan. Obtained from the tab "Current Status", in the subsection "Current Totals"
 * Values: Integer
 * Missing values reason: Value not provided <br />
-Note: First introduced 2020-06-05
+Note: First introduced 2020-06-05. Probable deaths include individuals who have COVID indicated as a cause of death on their death certificate but have not had a positive diagnostic laboratory test
 
 D_Notes
 * Column: CP
@@ -695,7 +695,8 @@ Date range: Contains ongoing data after 2020-06-05 <br />
 Columns D through CH
 * Description: Names of Michigan counties reporting probable COVID cases, in the format CP_<County>
 * Values: Integer
-* Missing values: Lack of probable deceased cases at the time of the report represented as "0"
+* Missing values: Lack of probable deceased cases at the time of the report represented as "0" <br />
+Note: County is based on the county of residence
 
 PC_MDOC
 * Column: CI
@@ -906,7 +907,8 @@ Date range: Contains ongoing data after 2020-06-05 <br />
 Columns D through CH
 * Description: Names of Michigan counties reporting probable deceased COVID cases, in the format PD_<County>
 * Values: Integer
-* Missing values: Lack of probable deceased cases at the time of the report represented as "0"
+* Missing values: Lack of probable deceased cases at the time of the report represented as "0"  <br />
+Note: County is based on the county of residence
 
 PD_MDOC
 * Column: CI
