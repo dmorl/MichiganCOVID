@@ -5,7 +5,7 @@ Four spreadsheets aggregating COVID probable and confirmed cases counts and demo
 
 **Author:** Daria Orlowska <br />
 **Contact:** daria.orlowska@wmich.edu <br />
-**Last Updated:** 2020-06-17 16:48 <br />
+**Last Updated:** 2020-06-18 17:58 <br />
 
 -------------------------------------------
 
@@ -15,7 +15,7 @@ Four spreadsheets aggregating COVID probable and confirmed cases counts and demo
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html (obsolete) and https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html (active) <br />
 **Description:** A spreadsheet converting tabular data of confirmed COVID-19 cases in Michigan released by the Michigan Department of Health & Human Services. Confirmed cases only include individuals who have had a positive diagnostic laboratory test for COVID-19 <br />
-**Date range:** 2020-03-10 through 2020-06-17 <br />
+**Date range:** 2020-03-10 through 2020-06-18 <br />
 **Missing dates:** 2020-03-20 <br />
 
 **Author notes:** This spreadsheet combines multiple tables with counts and demographics about confirmed COVID-19 cases in Michigan for ease of use. Variables are parsed into sections providing additional information about each table <br />
