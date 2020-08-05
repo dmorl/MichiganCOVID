@@ -5,7 +5,7 @@ Four spreadsheets aggregating COVID probable and confirmed cases counts and demo
 
 **Author:** Daria Orlowska <br />
 **Contact:** daria.orlowska@wmich.edu <br />
-**Last Updated:** 2020-08-03 17:26 <br />
+**Last Updated:** 2020-08-05 11:03 <br />
 
 -------------------------------------------
 
@@ -15,7 +15,7 @@ Four spreadsheets aggregating COVID probable and confirmed cases counts and demo
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html (obsolete) and https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html (active) <br />
 **Description:** A spreadsheet converting tabular data of confirmed COVID-19 cases in Michigan released by the Michigan Department of Health & Human Services. Confirmed cases only include individuals who have had a positive diagnostic laboratory test for COVID-19 <br />
-**Date range:** 2020-03-10 through 2020-08-03 <br />
+**Date range:** 2020-03-10 through 2020-08-04 <br />
 **Missing dates:** 2020-03-20 <br />
 
 **Author notes:** This spreadsheet combines multiple tables with counts and demographics about confirmed COVID-19 cases in Michigan for ease of use. Variables are parsed into sections providing additional information about each table <br />
@@ -27,7 +27,7 @@ As of 2020-06-05, Michigan.gov has moved over to the Microsoft Power BI data das
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html (obsolete) and https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html (active) <br />
 **Description:** A spreadsheet converting tabular data of confirmed COVID-19 deceased cases in Michigan released by the Michigan Department of Health & Human Services. Confirmed deaths include individuals who meet one or more of the following conditions: 1) Have been identified as a confirmed case and classified as deceased as a result of a case investigation in the Michigan Disease Surveillance System (MDSS). MDSS is the database used by state and local health department to monitor reportable diseases like COVID-19; 2) have been identified as a confirmed case in MDSS had have a death certificate with COVID-19 listed as a cause of death; 3) have been identified as a confirmed case in MDSS and die within 30 days of onset of COVID-19 infection and have a death certificate which classifies their manner death as 'natural' <br />
-**Date range:** 2020-03-10 through 2020-08-03 <br />
+**Date range:** 2020-03-10 through 2020-08-04 <br />
 **Missing dates:** 2020-03-20 <br />
 
 **Author notes:** This spreadsheet combines multiple tables with counts and demographics about confirmed COVID-19 deceased cases in Michigan for ease of use. Variables are parsed into sections providing additional information about each table <br />
@@ -39,7 +39,7 @@ As of 2020-06-05, Michigan.gov has moved over to the Microsoft Power BI data das
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html <br />
 **Description:** A spreadsheet converting dashboard data of COVID-19 probable cases in Michigan released by the Michigan Department of Health & Human Services. Probable cases include individuals who have symptoms consistent with COVID-19 and an epidemiologic link to a confirmed case or a positive serology (antibody) test, but do not have a positive diagnostic laboratory test for COVID-19 and individuals with a positive serology (antibody) test for COVID-19 and an epidemiologic link to a confirmed case. The number of probable cases can change daily based on information obtained through the health department investigation. Probable cases can be re-classified as a confirmed case or determined to not be a case <br />
-**Date range:** 2020-03-01 through 2020-08-03 <br />
+**Date range:** 2020-03-01 through 2020-08-04 <br />
 
 **Author notes:** As of 2020-06-05, Michigan.gov has moved over to the Microsoft Power BI data dashboard and began reporting probable COVID cases. However, the Author did not begin collecting demographic information on probable cases until 2020-06-07 <br />
 Probable cases can increase as more unconfirmed COVID-19 cases are identified, and decrease as these probable cases are confirmed and added to the official COVID-19 case count, or disconfirmed as cases and removed from the spreadsheet <br />
@@ -52,7 +52,7 @@ On 2020-06-13, MDHHS released the downloadable file "Confirmed and Probable Case
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html <br />
 **Description:** A spreadsheet converting dashboard data of probable deceased COVID-19 cases in Michigan released by the Michigan Department of Health & Human Services. Probable deaths include individuals who have COVID indicated as a cause of death on their death certificate but have not had a positive diagnostic laboratory test <br />
-**Date range:** 2020-03-01 through 2020-08-03 <br />
+**Date range:** 2020-03-01 through 2020-08-04 <br />
 
 **Author notes:** As of 2020-06-05, Michigan.gov has moved over to the Microsoft Power BI data dashboard and began reporting probable COVID cases. However, the Author did not begin collecting demographic information on probable cases until 2020-06-07 <br />
 Probable deceased cases can increase as more unconfirmed COVID-19 cases are identified, and decrease as these probable deceased cases are confirmed and added to the official COVID-19 deceased count, or disconfirmed as deceased cases and removed from the spreadsheet <br />
@@ -70,14 +70,13 @@ CheckedEST
 * Description: Data and time (YYYY-MM-DD HH:MM) in Eastern Standard Time (EST) when Author collected data
 * Values: Date
 * Missing values reason: Unable to get link from the Internet Archive due to an error <br />
-Note: Missing 2020-08-02
 
 Link
 * Column: B
 * Description: Link to archived page in the Web Archive (WaybackMachine)
 * Values: String
 * Missing values reason: This value should never be missing <br />
-Note: Sometimes pages archived in the Web Archive did not register, in which case the link does not work as expected. Internet Archive doesn't support dashboard archiving, so no data within the Microsoft Power BI dashboard is captured (starting from 2020-06-05). Contact Author for pdf versions of the dashboard to view all captured data pages. Missing link from 2020-08-02
+Note: Sometimes pages archived in the Web Archive did not register, in which case the link does not work as expected. Internet Archive doesn't support dashboard archiving, so no data within the Microsoft Power BI dashboard is captured (starting from 2020-06-05). Contact Author for pdf versions of the dashboard to view all captured data pages. 
 
 Date
 * Column: C
@@ -196,7 +195,8 @@ C_0_19
 * Column: CT
 * Description: Confirmed COVID cases across Michigan between the ages of 0 to 19
 * Values: Percentage; Integer
-* Missing values reason: This value may be missing if not applicable or not provided
+* Missing values reason: This value may be missing if not applicable or not provided  <br />
+Note: As of 2020-08-02, this category was split into 2 categories: ages 0 to 9 and ages 10 to 19. In order to preserve ability to compare across dates, these two categories are now summed in the dataset
 
 C_20_29
 * Column: CU
@@ -356,14 +356,13 @@ CheckedEST
 * Column: A
 * Description: Data and time (YYYY-MM-DD HH:MM) in Eastern Standard Time (EST) when Author collected data
 * Missing values reason: Unable to get link from the Internet Archive due to an error <br />
-Note: Missing 2020-08-02
 
 Link
 * Column: B
 * Description: Link to archived page in the Web Archive (WaybackMachine)
 * Values: String
 * Missing values reason: This value should never be missing <br />
-Note: Sometimes pages archived in the Web Archive did not register, in which case the link does not work as expected. Internet Archive doesn't support dashboard archiving, so no data within the Microsoft Power BI dashboard is captured (starting from 2020-06-05). Contact Author for pdf versions of the dashboard to view all captured data pages. Missing link from 2020-08-02
+Note: Sometimes pages archived in the Web Archive did not register, in which case the link does not work as expected. Internet Archive doesn't support dashboard archiving, so no data within the Microsoft Power BI dashboard is captured (starting from 2020-06-05). Contact Author for pdf versions of the dashboard to view all captured data pages.
 
 Date
 * Column: C
@@ -466,6 +465,7 @@ D_SexNR
 * Description: Confirmed deceased COVID cases across Michigan where sex was unknown/not reported
 * Values: Percentage; Integer
 * Missing values reason: This value may be missing if not applicable or not provided <br />
+Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
 
 - SECTION DeceasedAge - <br />
 
@@ -481,7 +481,8 @@ D_0_19
 * Column: CT
 * Description: Confirmed deceased COVID cases across Michigan between the ages of 0 to 19
 * Values: Percentage; Integer
-* Missing values reason: This value may be missing if not applicable or not provided
+* Missing values reason: This value may be missing if not applicable or not provided <br />
+Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
 
 D_20_29
 * Column: CU
@@ -530,6 +531,7 @@ D_AgeNR
 * Description: Confirmed deceased COVID cases across Michigan with unknown/not reported age
 * Values: Percentage; Integer
 * Missing values reason: This value may be missing if not applicable or not provided <br />
+Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
 
 - SECTION DeceasedOverallAge - <br />
 
@@ -542,25 +544,25 @@ D_AgeMin
 * Column: DC
 * Description: The youngest age recorded among confirmed deceased COVID cases, taken from the lower end of the variable "Age Range"
 * Values: Integer
-* Missing values reason: This value should never be missing
+* Missing values reason: This value is missing if not reported <br />
 
 D_AgeMax
 * Column: DD
 * Description: The oldest age recorded among confirmed deceased COVID cases, taken from the higher end of the variable "Age Range"
 * Values: Integer
-* Missing values reason: This value should never be missing
+* Missing values reason: This value is missing if not reported <br />
 
 D_AgeAvg
 * Column: DE
 * Description: The average age of confirmed deceased COVID cases, taken from the variable "Average Age"
 * Values: Float, one decimal point
-* Missing values reason: This value should never be missing
+* Missing values reason: This value is missing if not reported <br />
 
 D_AgeMed
 * Column: DF
 * Description: The median age of confirmed deceased COVID cases, taken from the variable "Median Age"
 * Values: Integer
-* Missing values reason: This value should never be missing <br />
+* Missing values reason: This value is missing if not reported <br />
 
 - SECTION DeceasedRace - <br />
 
@@ -673,14 +675,13 @@ CheckedEST
 * Description: Data and time (YYYY-MM-DD HH:MM) in Eastern Standard Time (EST) when Author collected data
 * Values: Date
 * Missing values reason: Unable to get link from the Internet Archive due to an error <br />
-Note: Missing 2020-08-02
 
 Link
 * Column: B
 * Description: Link to archived page in the Web Archive (WaybackMachine)
 * Values: String
 * Missing values reason: This value should never be missing <br />
-Note: Sometimes pages archived in the Web Archive did not register, in which case the link does not work as expected. Internet Archive doesn't support dashboard archiving, so no data within the Microsoft Power BI dashboard is captured (starting from 2020-06-05). Contact Author for pdf versions of the dashboard to view all captured data pages. Missing link from 2020-08-02
+Note: Sometimes pages archived in the Web Archive did not register, in which case the link does not work as expected. Internet Archive doesn't support dashboard archiving, so no data within the Microsoft Power BI dashboard is captured (starting from 2020-06-05). Contact Author for pdf versions of the dashboard to view all captured data pages. 
 
 Date
 * Column: C
@@ -778,7 +779,8 @@ PC_0_19
 * Column: CS
 * Description: Probable COVID cases across Michigan between the ages of 0 to 19
 * Values: Integer
-* Missing values: Lack of probable deceased cases at the time of the report represented as "0"
+* Missing values: Lack of probable deceased cases at the time of the report represented as "0" <br />
+Note: As of 2020-08-02, this category was split into 2 categories: ages 0 to 9 and ages 10 to 19. In order to preserve ability to compare across dates, these two categories are now summed in the dataset
 
 PC_20_29
 * Column: CT
@@ -886,14 +888,13 @@ CheckedEST
 * Description: Data and time (YYYY-MM-DD HH:MM) in Eastern Standard Time (EST) when Author collected data
 * Values: Date
 * Missing values reason: Unable to get link from the Internet Archive due to an error <br />
-Note: Missing 2020-08-02
 
 Link
 * Column: B
 * Description: Link to archived page in the Web Archive (WaybackMachine)
 * Values: String
 * Missing values reason: This value should never be missing <br />
-Note: Sometimes pages archived in the Web Archive did not register, in which case the link does not work as expected. Internet Archive doesn't support dashboard archiving, so no data within the Microsoft Power BI dashboard is captured (starting from 2020-06-05). Contact Author for pdf versions of the dashboard to view all captured data pages. Missing link from 2020-08-02
+Note: Sometimes pages archived in the Web Archive did not register, in which case the link does not work as expected. Internet Archive doesn't support dashboard archiving, so no data within the Microsoft Power BI dashboard is captured (starting from 2020-06-05). Contact Author for pdf versions of the dashboard to view all captured data pages. 
 
 Date
 * Column: C
@@ -979,6 +980,7 @@ PD_SexNR
 * Description: Probable deceased COVID cases across Michigan where sex was not reported
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0" <br />
+Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
 
 - SECTION DeceasedAge - <br />
 
@@ -992,18 +994,21 @@ PD_0_19
 * Description: Probable deceased COVID cases across Michigan between the ages of 0 to 19
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
+Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
 
 PD_20_29
 * Column: CT
 * Description: Probable deceased COVID cases across Michigan between the ages of 20 to 29
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
+Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
 
 PD_30_39
 * Column: CU
 * Description: Probable deceased COVID cases across Michigan between the ages of 30 to 39
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
+Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
 
 PD_40_49
 * Column: CV
@@ -1040,6 +1045,7 @@ PD_AgeNR
 * Description: Probable deceased COVID cases across Michigan with unknown/not reported age
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0" <br />
+Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
 
 - SECTION DeceasedRace - <br />
 
@@ -1053,12 +1059,14 @@ PD_Native
 * Description: Probable deceased COVID cases across Michigan identifying as American Indian or Alaska Native
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
+Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
 
 PD_Asian
 * Column: DC
 * Description: Probable deceased COVID cases across Michigan identifying as Asian/Pacific Islander
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
+Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
 
 PD_Black
 * Column: DD
@@ -1077,15 +1085,18 @@ PD_Many
 * Description: Probable deceased COVID cases across Michigan identiyfing as Multiple Races
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
+Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
 
 PD_Other
 * Column: DG
 * Description: Probable deceased COVID cases across Michigan identifying as Other
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
+Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
 
 PD_RaceNR
 * Column: DH
 * Description: Probable deceased COVID cases across Michigan of unknown/not reported race
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
+* Missing values reason: This value may be missing if not applicable or not provided <br />
