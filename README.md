@@ -5,7 +5,7 @@ Four spreadsheets aggregating COVID probable and confirmed cases counts and demo
 
 **Author:** Daria Orlowska <br />
 **Contact:** daria.orlowska@wmich.edu <br />
-**Last Updated:** 2020-08-27 11:22 <br />
+**Last Updated:** 2020-08-27 22:06 <br />
 
 -------------------------------------------
 
