@@ -5,7 +5,7 @@ Four spreadsheets aggregating COVID probable and confirmed cases counts and demo
 
 **Author:** Daria Orlowska <br />
 **Contact:** daria.orlowska@wmich.edu <br />
-**Last Updated:** 2021-04-12 20:57 <br />
+**Last Updated:** 2021-04-14 10:57 <br />
 
 -------------------------------------------
 
@@ -15,7 +15,7 @@ Four spreadsheets aggregating COVID probable and confirmed cases counts and demo
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html (obsolete) and https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html (active) <br />
 **Description:** A spreadsheet converting tabular data of confirmed COVID-19 cases in Michigan released by the Michigan Department of Health & Human Services. Confirmed cases only include individuals who have had a positive diagnostic laboratory test for COVID-19 <br />
-**Date range:** 2020-03-10 through 2021-04-12 <br />
+**Date range:** 2020-03-10 through 2021-04-13 <br />
 **Missing dates:** 2020-03-20, 2020-08-21, 2020-09-06, 2020-11-26, 2020-12-24. 2020-12-25, 2020-12-31, 2021-01-01 <br />
 
 **Author notes:** This spreadsheet combines multiple tables with counts and demographics about confirmed COVID-19 cases in Michigan for ease of use. Variables are parsed into sections providing additional information about each table <br />
@@ -27,7 +27,7 @@ As of 2020-09-06, data on cases, deaths and testing will be reported Monday – 
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html (obsolete) and https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html (active) <br />
 **Description:** A spreadsheet converting tabular data of confirmed COVID-19 deceased cases in Michigan released by the Michigan Department of Health & Human Services. Confirmed deaths include individuals who meet one or more of the following conditions: 1) Have been identified as a confirmed case and classified as deceased as a result of a case investigation in the Michigan Disease Surveillance System (MDSS). MDSS is the database used by state and local health department to monitor reportable diseases like COVID-19; 2) have been identified as a confirmed case in MDSS had have a death certificate with COVID-19 listed as a cause of death; 3) have been identified as a confirmed case in MDSS and die within 30 days of onset of COVID-19 infection and have a death certificate which classifies their manner death as 'natural' <br />
-**Date range:** 2020-03-10 through 2021-04-12 <br />
+**Date range:** 2020-03-10 through 2021-04-13 <br />
 **Missing dates:** 2020-03-20, 2020-08-21, 2020-09-06, 2020-11-26, 2020-12-24. 2020-12-25, 2020-12-31, 2021-01-01 <br />
 
 **Author notes:** This spreadsheet combines multiple tables with counts and demographics about confirmed COVID-19 deceased cases in Michigan for ease of use. Variables are parsed into sections providing additional information about each table <br />
@@ -40,7 +40,7 @@ As of 2020-09-06, data on cases, deaths and testing will be reported Monday – 
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html <br />
 **Description:** A spreadsheet converting dashboard data of COVID-19 probable cases in Michigan released by the Michigan Department of Health & Human Services. Probable cases include individuals who have symptoms consistent with COVID-19 and an epidemiologic link to a confirmed case or a positive serology (antibody) test, but do not have a positive diagnostic laboratory test for COVID-19 and individuals with a positive serology (antibody) test for COVID-19 and an epidemiologic link to a confirmed case. The number of probable cases can change daily based on information obtained through the health department investigation. Probable cases can be re-classified as a confirmed case or determined to not be a case <br />
-**Date range:** 2020-03-01 through 2021-04-12 <br />
+**Date range:** 2020-03-01 through 2021-04-13 <br />
 **Missing dates:** 2020-08-21, 2020-09-06 <br, 2020-11-26, 2020-12-24. 2020-12-25, 2020-12-31, 2021-01-01 />
 
 **Author notes:** As of 2020-06-05, Michigan.gov has moved over to the Microsoft Power BI data dashboard and began reporting probable COVID cases. However, the Author did not begin collecting demographic information on probable cases until 2020-06-07 <br />
@@ -55,7 +55,7 @@ As of 2020-09-06, data on cases, deaths and testing will be reported Monday – 
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html <br />
 **Description:** A spreadsheet converting dashboard data of probable deceased COVID-19 cases in Michigan released by the Michigan Department of Health & Human Services. Probable deaths include individuals who have COVID indicated as a cause of death on their death certificate but have not had a positive diagnostic laboratory test <br />
-**Date range:** 2020-03-01 through 2021-04-12 <br />
+**Date range:** 2020-03-01 through 2021-04-13 <br />
 **Missing dates:** 2020-08-21, 2020-09-06, 2020-11-26, 2020-12-24. 2020-12-25, 2020-12-31, 2021-01-01 <br />
 
 **Author notes:** As of 2020-06-05, Michigan.gov has moved over to the Microsoft Power BI data dashboard and began reporting probable COVID cases. However, the Author did not begin collecting demographic information on probable cases until 2020-06-07 <br />
@@ -721,44 +721,44 @@ Columns D through CH
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0" <br />
 Note: County is based on the county of residence
 
-PC_MDOC
+CP_MDOC
 * Column: CI
 * Description: The number of probable COVID cases originating in the Michigan Department of Corrections (MDOC) in Michigan
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PC_FCI
+CP_FCI
 * Column: CJ
 * Description: The number of probable COVID cases originating in the Federal Corrections Institution (FCI) in Michigan 
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PC_OutState
+CP_OutState
 * Column: CK
 * Description: The number of probable COVID cases from out of state in Michigan 
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PC_NR
+CP_NR
 * Column: CL
 * Description: The number of probable COVID cases with unknown origin in Michigan 
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PC_TOTAL
+CP_TOTAL
 * Column: CM
 * Description: The derived number of total daily probable COVID cases in Michigan. Obtained by horizontally summing of all county and NR cases in the same row 
 * Values: Integer
 * Missing values reason: This value should never be missing
 
-PC_Detroit
+CP_Detroit
 * Column: CN
 * Description: The probable COVID cases occuring in Detroit
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0" <br />
 Note: City of Detroit and Wayne County are reported separately. Since Detroit is in Wayne County, the Author has combined both of these numbers in the Wayne county count and included the Detroit-only count after the TOTAL column, for reference.
 
-PC_Notes
+CP_Notes
 * Column: CO
 * Description: Additional information posted on the website, or notes by the Author to indicate discrepancies 
 * Values: String <br />
@@ -770,19 +770,19 @@ Description: Information from the tab "Demographics", in the subsection "Cases b
 Date range: Contains ongoing data after 2020-06-07 <br />
 Website note: Data are suppressed when the number of cases is five or below to protect the confidentiality of individuals. The sum of the cases for individual categories may be fewer than the total number of cases due to data suppression <br />
 
-PC_Male
+CP_Male
 * Column: CP
 * Description: Probable male COVID cases across Michigan
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PC_Female
+CP_Female
 * Column: CQ
 * Description: Probable female COVID cases across Michigan
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PC_SexNR
+CP_SexNR
 * Column: CR
 * Description: Probable COVID cases across Michigan where sex was not reported
 * Values: Integer
@@ -796,70 +796,70 @@ Date range: Contains ongoing data after 2020-06-07 <br />
 Website note: Data are suppressed when the number of cases is five or below to protect the confidentiality of individuals. The sum of the cases for individual categories may be fewer than the total number of cases due to data suppression <br />
 Author note: As of 2020-08-02, the age category "0 to 19" was split up into two sub categories, "0 to 9" and "10 to 19", therefore two new categories were introduced and the "0 to 19" category is left blank after this date <br /> 
 
-PC_0_9
+CP_0_9
 * Column: CS
 * Description: Confirmed COVID cases across Michigan between the ages of 0 to 9
 * Values: Integer
 * Missing values reason: This value may be missing if not applicable or not provided  <br />
-Note: As of 2020-08-02, this category is a result of the variable "PC_0_19" being split into 2 categories: ages 0 to 9 and ages 10 to 19
+Note: As of 2020-08-02, this category is a result of the variable "CP_0_19" being split into 2 categories: ages 0 to 9 and ages 10 to 19
 
-PC_10_19
+CP_10_19
 * Column: CT
 * Description: Confirmed COVID cases across Michigan between the ages of 10 to 19
 * Values: Integer
 * Missing values reason: This value may be missing if not applicable or not provided  <br />
-Note: As of 2020-08-02, this category is a result of the variable "PC_0_19" being split into 2 categories: ages 0 to 9 and ages 10 to 19
+Note: As of 2020-08-02, this category is a result of the variable "CP_0_19" being split into 2 categories: ages 0 to 9 and ages 10 to 19
 
-PC_0_19
+CP_0_19
 * Column: CU
 * Description: Probable COVID cases across Michigan between the ages of 0 to 19
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0" <br />
-Note: As of 2020-08-02, this category was split into 2 categories ("PC_0_9" and "PC_10_19") and is left blank as a resultNote: As of 2020-08-02, this category was split into 2 categories: ages 0 to 9 and ages 10 to 19. In order to preserve ability to compare across dates, these two categories are now summed in the dataset
+Note: As of 2020-08-02, this category was split into 2 categories ("CP_0_9" and "CP_10_19") and is left blank as a resultNote: As of 2020-08-02, this category was split into 2 categories: ages 0 to 9 and ages 10 to 19. In order to preserve ability to compare across dates, these two categories are now summed in the dataset
 
-PC_20_29
+CP_20_29
 * Column: CV
 * Description: Probable COVID cases across Michigan between the ages of 20 to 29
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PC_30_39
+CP_30_39
 * Column: CW
 * Description: Probable COVID cases across Michigan between the ages of 30 to 39
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PC_40_49
+CP_40_49
 * Column: CX
 * Description: Probable COVID cases across Michigan between the ages of 40 to 49
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PC_50_59
+CP_50_59
 * Column: CY
 * Description: Probable COVID cases across Michigan between the ages of 50 to 59
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PC_60_69
+CP_60_69
 * Column: CZ
 * Description: Probable COVID cases across Michigan between the ages of 60 to 69
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PC_70_79
+CP_70_79
 * Column: DA
 * Description: Probable COVID cases across Michigan between the ages of 70 to 79
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PC_80_plus
+CP_80_plus
 * Column: DB
 * Description: Probable COVID cases across Michigan between the ages of 80 to 89
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PC_AgeNR
+CP_AgeNR
 * Column: DC
 * Description: Probable COVID cases across Michigan with unknown/not reported age
 * Values: Integer
@@ -872,43 +872,43 @@ Description: Information from the tab "Demographics", in the subsection "Cases b
 Date range: Contains ongoing data after 2020-06-07 <br />
 Website note: Data are suppressed when the number of cases is five or below to protect the confidentiality of individuals. The sum of the cases for individual categories may be fewer than the total number of cases due to data suppression <br />
 
-PC_Native
+CP_Native
 * Column: DD
 * Description: Probable COVID cases across Michigan identifying as American Indian or Alaska Native
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PC_Asian
+CP_Asian
 * Column: DE
 * Description: Probable COVID cases across Michigan identifying as Asian/Pacific Islander
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PC_Black
+CP_Black
 * Column: DF
 * Description: Probable COVID cases across Michigan identifying as Black or African American
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PC_White
+CP_White
 * Column: DG
 * Description: Probable COVID cases across Michigan identifying as Caucasian
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PC_Many
+CP_Many
 * Column: DH
 * Description: Probable COVID cases across Michigan identiyfing as Multiple Races
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PC_Other
+CP_Other
 * Column: DI
 * Description: Probable COVID cases across Michigan identifying as Other
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PC_RaceNR
+CP_RaceNR
 * Column: DJ
 * Description: Probable COVID cases across Michigan of unknown/not reported race
 * Values: Integer
@@ -944,49 +944,49 @@ Description: Information from the tab "Current Status", in the subsection "Covid
 Date range: Contains ongoing data after 2020-06-05 <br />
 
 Columns D through CH
-* Description: Names of Michigan counties reporting probable deceased COVID cases, in the format PD_<County>
+* Description: Names of Michigan counties reporting probable deceased COVID cases, in the format DP_<County>
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"  <br />
 Note: County is based on the county of residence
 
-PD_MDOC
+DP_MDOC
 * Column: CI
 * Description: The number of probable deceased COVID cases originating in the Michigan Department of Corrections (MDOC) in Michigan
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PD_FCI
+DP_FCI
 * Column: CJ
 * Description: The number of probable deceased COVID cases originating in the Federal Corrections Institution (FCI) in Michigan 
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PD_OutState
+DP_OutState
 * Column: CK
 * Description: The number of probable deceased COVID cases from out of state in Michigan 
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PD_NR
+DP_NR
 * Column: CL
 * Description: The number of probable deceased COVID cases with unknown origin in Michigan 
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PD_TOTAL
+DP_TOTAL
 * Column: CM
 * Description: The derived number of total daily probable deceased COVID cases in Michigan. Obtained by horizontally summing of all county and NR cases in the same row 
 * Values: Integer
 * Missing values reason: This value should never be missing
 
-PD_Detroit
+DP_Detroit
 * Column: CN
 * Description: The probable deceased COVID cases occuring in Detroit
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0" <br />
 Note: City of Detroit and Wayne County are reported separately. Since Detroit is in Wayne County, the Author has combined both of these numbers in the Wayne county count and included the Detroit-only count after the TOTAL column, for reference
 
-PD_Notes
+DP_Notes
 * Column: CO
 * Description: Additional information posted on the website, or notes by the Author to indicate discrepancies 
 * Values: String <br />
@@ -998,19 +998,19 @@ Description: Information from the tab "Demographics", in the subsection "Deaths 
 Date range: Contains ongoing data after 2020-06-07 <br />
 Website note: Data are suppressed when the number of cases is five or below to protect the confidentiality of individuals. The sum of the cases for individual categories may be fewer than the total number of cases due to data suppression <br />
 
-PD_Male
+DP_Male
 * Column: CP
 * Description: Probable deceased male COVID cases across Michigan
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PD_Female
+DP_Female
 * Column: CQ
 * Description: Probable deceased female COVID cases across Michigan
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PD_SexNR
+DP_SexNR
 * Column: CR
 * Description: Probable deceased COVID cases across Michigan where sex was not reported
 * Values: Integer
@@ -1024,59 +1024,64 @@ Description: Information from the tab "Demographics", in the subsection "Deaths 
 Date range: Contains ongoing data after 2020-06-07 <br />
 Website note: Data are suppressed when the number of cases is five or below to protect the confidentiality of individuals. The sum of the cases for individual categories may be fewer than the total number of cases due to data suppression <br />
 
-PD_0_19
+DP_0_19
 * Column: CS
 * Description: Probable deceased COVID cases across Michigan between the ages of 0 to 19
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
 
-PD_20_29
+DP_20_29
 * Column: CT
 * Description: Probable deceased COVID cases across Michigan between the ages of 20 to 29
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
 
-PD_30_39
+DP_10_19
 * Column: CU
+* Description: Probable deceased COVID cases across Michigan between the ages of 10 to 19
+* Values: Integer
+* Missing values: Lack of probable deceased cases at the time of the report represented as "0"
+
+DP_30_39
+* Column: CV
 * Description: Probable deceased COVID cases across Michigan between the ages of 30 to 39
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
-Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
 
-PD_40_49
-* Column: CV
+DP_40_49
+* Column: CW
 * Description: Probable deceased COVID cases across Michigan between the ages of 40 to 49
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PD_50_59
-* Column: CW
+DP_50_59
+* Column: CX
 * Description: Probable deceased COVID cases across Michigan between the ages of 50 to 59
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PD_60_69
-* Column: CX
+DP_60_69
+* Column: CY
 * Description: Probable deceased COVID cases across Michigan between the ages of 60 to 69
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PD_70_79
-* Column: CY
+DP_70_79
+* Column: CZ
 * Description: Probable deceased COVID cases across Michigan between the ages of 70 to 79
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PD_80_plus
-* Column: DZ
+DP_80_plus
+* Column: DA
 * Description: Probable deceased COVID cases across Michigan between the ages of 80 to 89
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PD_AgeNR
-* Column: DA
+DP_AgeNR
+* Column: DB
 * Description: Probable deceased COVID cases across Michigan with unknown/not reported age
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0" <br />
@@ -1089,48 +1094,48 @@ Description: Information from the tab "Demographics", in the subsection "Deaths 
 Date range: Contains ongoing data after 2020-06-07 <br />
 Website note: Data are suppressed when the number of cases is five or below to protect the confidentiality of individuals. The sum of the cases for individual categories may be fewer than the total number of cases due to data suppression <br />
 
-PD_Native
-* Column: DB
+DP_Native
+* Column: DC
 * Description: Probable deceased COVID cases across Michigan identifying as American Indian or Alaska Native
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
 
-PD_Asian
-* Column: DC
+DP_Asian
+* Column: DD
 * Description: Probable deceased COVID cases across Michigan identifying as Asian/Pacific Islander
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
 
-PD_Black
-* Column: DD
+DP_Black
+* Column: DE
 * Description: Probable deceased COVID cases across Michigan identifying as Black or African American
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PD_White
-* Column: DE
+DP_White
+* Column: DF
 * Description: Probable deceased COVID cases across Michigan identifying as Caucasian
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 
-PD_Many
-* Column: DF
+DP_Many
+* Column: DG
 * Description: Probable deceased COVID cases across Michigan identiyfing as Multiple Races
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
 
-PD_Other
-* Column: DG
+DP_Other
+* Column: DH
 * Description: Probable deceased COVID cases across Michigan identifying as Other
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
 Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
 
-PD_RaceNR
-* Column: DH
+DP_RaceNR
+* Column: DI
 * Description: Probable deceased COVID cases across Michigan of unknown/not reported race
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
