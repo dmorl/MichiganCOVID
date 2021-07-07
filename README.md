@@ -20,7 +20,7 @@ Four spreadsheets aggregating COVID probable and confirmed cases counts and demo
 
 **Author notes:** This spreadsheet combines multiple tables with counts and demographics about confirmed COVID-19 cases in Michigan for ease of use. Variables are parsed into sections providing additional information about each table <br />
 As of 2020-06-05, Michigan.gov has moved over to the Microsoft Power BI data dashboard to display statistics. As a result, archiving the webpage is no longer effective. Some table names have changed, so SECTIONS now include a TableDescription that describes variable location pre-dashboard, and DashDescription, that describes variable location post-dashboard relocation. As a result of the move, some variables are no longer reported while others have been added. Notably, many variables are now being reported as raw numbers instead of percentages <br />
-As of 2020-09-06, data on cases, deaths and testing will be reported Monday – Saturday due to the erratic nature of weekend data. As of 2021-06-18, data will no longer be updated on Saturdays. 
+As of 2020-09-06, data on cases, deaths and testing will be reported Monday – Saturday due to the erratic nature of weekend data. As of 2021-06-18, data will no longer be updated on Saturdays. As of 2021-07-02, COVID data will be posted twice a week on Tuesdays and Fridays.
 ---
 
 ### MichiganOverview_Deceased.csv
@@ -32,7 +32,7 @@ As of 2020-09-06, data on cases, deaths and testing will be reported Monday – 
 
 **Author notes:** This spreadsheet combines multiple tables with counts and demographics about confirmed COVID-19 deceased cases in Michigan for ease of use. Variables are parsed into sections providing additional information about each table <br />
 As of 2020-06-05, Michigan.gov has moved over to the Microsoft Power BI data dashboard to display statistics. As a result, archiving the webpage is no longer effective. Some table names have changed, so SECTIONS now include a TableDescription that describes variable location pre-dashboard, and DashDescription, that describes variable location post-dashboard relocation. As a result of the move, some variables are no longer reported while others have been added. Notably, many variables are now being reported as raw numbers instead of percentages <br />
-As of 2020-09-06, data on cases, deaths and testing will be reported Monday – Saturday due to the erratic nature of weekend data. As of 2021-06-18, data will no longer be updated on Saturdays. 
+As of 2020-09-06, data on cases, deaths and testing will be reported Monday – Saturday due to the erratic nature of weekend data. As of 2021-06-18, data will no longer be updated on Saturdays. As of 2021-07-02, COVID data will be posted twice a week on Tuesdays and Fridays.
 
 ---
 
@@ -47,7 +47,7 @@ As of 2020-09-06, data on cases, deaths and testing will be reported Monday – 
 Probable cases can increase as more unconfirmed COVID-19 cases are identified, and decrease as these probable cases are confirmed and added to the official COVID-19 case count, or disconfirmed as cases and removed from the spreadsheet <br />
 
 On 2020-06-13, MDHHS released the downloadable file "Confirmed and Probable Cases by County by Date" (subsequently "Cases by County by Date") ranging from March 2020 onwards. Therefore, numbers between 2020-03-01 and 2020-06-04 are taken from a different source than the dashboard and may result in some discrepancies <br />
-As of 2020-09-06, data on cases, deaths and testing will be reported Monday – Saturday due to the erratic nature of weekend data. As of 2021-06-18, data will no longer be updated on Saturdays. 
+As of 2020-09-06, data on cases, deaths and testing will be reported Monday – Saturday due to the erratic nature of weekend data. As of 2021-06-18, data will no longer be updated on Saturdays. As of 2021-07-02, COVID data will be posted twice a week on Tuesdays and Fridays.
 
 ---
 
@@ -62,7 +62,7 @@ As of 2020-09-06, data on cases, deaths and testing will be reported Monday – 
 Probable deceased cases can increase as more unconfirmed COVID-19 cases are identified, and decrease as these probable deceased cases are confirmed and added to the official COVID-19 deceased count, or disconfirmed as deceased cases and removed from the spreadsheet <br />
 
 On 2020-06-13, MDHHS released the downloadable file "Confirmed and Probable Cases by County by Date" (subsequently "Cases by County by Date") ranging from March 2020 onwards. Therefore, numbers between 2020-03-01 and 2020-06-04 are taken from a different source than the dashboard and may result in some discrepancies <br />
-As of 2020-09-06, data on cases, deaths and testing will be reported Monday – Saturday due to the erratic nature of weekend data. As of 2021-06-18, data will no longer be updated on Saturdays. 
+As of 2020-09-06, data on cases, deaths and testing will be reported Monday – Saturday due to the erratic nature of weekend data. As of 2021-06-18, data will no longer be updated on Saturdays. As of 2021-07-02, COVID data will be posted twice a week on Tuesdays and Fridays.
 
 -------------------------------------------
 
