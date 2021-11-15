@@ -5,7 +5,7 @@ Four spreadsheets aggregating COVID probable and confirmed cases counts and demo
 
 **Author:** Daria Orlowska <br />
 **Contact:** daria.orlowska@wmich.edu <br />
-**Last Updated:** 2021-11-11 12:30 <br />
+**Last Updated:** 2021-11-15 11:03 <br />
 
 -------------------------------------------
 
@@ -15,7 +15,7 @@ Four spreadsheets aggregating COVID probable and confirmed cases counts and demo
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html (obsolete) and https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html (active) <br />
 **Description:** A spreadsheet converting tabular data of confirmed COVID-19 cases in Michigan released by the Michigan Department of Health & Human Services. Confirmed cases only include individuals who have had a positive diagnostic laboratory test for COVID-19 <br />
-**Date range:** 2020-03-10 through 2021-11-10 <br />
+**Date range:** 2020-03-10 through 2021-11-12 <br />
 **Missing dates:** 2020-03-20, 2020-08-21, 2020-09-06, 2020-11-26, 2020-12-24. 2020-12-25, 2020-12-31, 2021-01-01, 2021-05-31, 2021-09-06 <br />
 
 **Author notes:** This spreadsheet combines multiple tables with counts and demographics about confirmed COVID-19 cases in Michigan for ease of use. Variables are parsed into sections providing additional information about each table <br />
@@ -27,7 +27,7 @@ As of 2020-06-05, Michigan.gov has moved over to the Microsoft Power BI data das
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage, https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html (obsolete) and https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html (active) <br />
 **Description:** A spreadsheet converting tabular data of confirmed COVID-19 deceased cases in Michigan released by the Michigan Department of Health & Human Services. Confirmed deaths include individuals who meet one or more of the following conditions: 1) Have been identified as a confirmed case and classified as deceased as a result of a case investigation in the Michigan Disease Surveillance System (MDSS). MDSS is the database used by state and local health department to monitor reportable diseases like COVID-19; 2) have been identified as a confirmed case in MDSS had have a death certificate with COVID-19 listed as a cause of death; 3) have been identified as a confirmed case in MDSS and die within 30 days of onset of COVID-19 infection and have a death certificate which classifies their manner death as 'natural' <br />
-**Date range:** 2020-03-10 through 2021-11-20 <br />
+**Date range:** 2020-03-10 through 2021-11-12 <br />
 **Missing dates:** 2020-03-20, 2020-08-21, 2020-09-06, 2020-11-26, 2020-12-24. 2020-12-25, 2020-12-31, 2021-01-01, 2021-05-31, 2021-09-06 <br />
 
 **Author notes:** This spreadsheet combines multiple tables with counts and demographics about confirmed COVID-19 deceased cases in Michigan for ease of use. Variables are parsed into sections providing additional information about each table <br />
@@ -39,7 +39,7 @@ As of 2020-06-05, Michigan.gov has moved over to the Microsoft Power BI data das
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html <br />
 **Description:** A spreadsheet converting dashboard data of COVID-19 probable cases in Michigan released by the Michigan Department of Health & Human Services. Probable cases include individuals who have symptoms consistent with COVID-19 and an epidemiologic link to a confirmed case or a positive serology (antibody) test, but do not have a positive diagnostic laboratory test for COVID-19 and individuals with a positive serology (antibody) test for COVID-19 and an epidemiologic link to a confirmed case. The number of probable cases can change daily based on information obtained through the health department investigation. Probable cases can be re-classified as a confirmed case or determined to not be a case <br />
-**Date range:** 2020-03-01 through 2021-11-10 <br />
+**Date range:** 2020-03-01 through 2021-11-12 <br />
 **Missing dates:** 2020-03-20, 2020-08-21, 2020-09-06, 2020-11-26, 2020-12-24. 2020-12-25, 2020-12-31, 2021-01-01, 2021-05-31, 2021-09-06 <br />
 
 **Author notes:** As of 2020-06-05, Michigan.gov has moved over to the Microsoft Power BI data dashboard and began reporting probable COVID cases. However, the Author did not begin collecting demographic information on probable cases until 2020-06-07 <br />
@@ -53,7 +53,7 @@ On 2020-06-13, MDHHS released the downloadable file "Confirmed and Probable Case
 
 **Source:** Data is found under the Cumulative Data link of Michigan's Coronavirus webpage https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html <br />
 **Description:** A spreadsheet converting dashboard data of probable deceased COVID-19 cases in Michigan released by the Michigan Department of Health & Human Services. Probable deaths include individuals who have COVID indicated as a cause of death on their death certificate but have not had a positive diagnostic laboratory test <br />
-**Date range:** 2020-03-01 through 2021-11-10 <br />
+**Date range:** 2020-03-01 through 2021-11-12 <br />
 **Missing dates:** 2020-03-20, 2020-08-21, 2020-09-06, 2020-11-26, 2020-12-24. 2020-12-25, 2020-12-31, 2021-01-01, 2021-05-31, 2021-09-06 <br />
 
 **Author notes:** As of 2020-06-05, Michigan.gov has moved over to the Microsoft Power BI data dashboard and began reporting probable COVID cases. However, the Author did not begin collecting demographic information on probable cases until 2020-06-07 <br />
@@ -486,7 +486,7 @@ Note: As of 2020-08-02, this category is no longer being reported and is left as
 
 - SECTION DeceasedAge - <br />
 
-Column range: CT through DB <br />
+Column range: CT through DD <br />
 TableDescription: Information from aggregated table "Cases by Age", column "Percentage of Deceased Cases by Age", taken from https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html <br />
    TableWebsite note: Totals may not add to 100% due to rounding <br />
 DashDescription: Information from the tab "Demographics", in the subsection "Deaths by Age Group" using the selection "Deaths --> Confirmed", taken from https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html <br />
@@ -494,57 +494,71 @@ DashDescription: Information from the tab "Demographics", in the subsection "Dea
 Date range: Contains ongoing data after 2020-04-02 <br />
 Author note: Some percentages are recorded as "<1%", which may need to be transformed before analysis. Post migration to the dashboard on 2020-06-05, values are now presented as raw data instead of percentages <br />
 
-D_0_19
+D_0_9
 * Column: CT
+* Description: Confirmed deceased COVID cases across Michigan between the ages of 0 to 9
+* Values: Percentage; Integer
+* Missing values reason: This value may be missing if not applicable or not provided <br />
+Note: This category began being reported as of 2021-11-12
+
+D_10_19
+* Column: CU
+* Description: Confirmed deceased COVID cases across Michigan between the ages of 10 to 19
+* Values: Percentage; Integer
+* Missing values reason: This value may be missing if not applicable or not provided <br />
+Note: his category began being reported as of 2021-11-12
+
+D_0_19
+* Column: CV
 * Description: Confirmed deceased COVID cases across Michigan between the ages of 0 to 19
 * Values: Percentage; Integer
 * Missing values reason: This value may be missing if not applicable or not provided <br />
-Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
+Note: This category was reported until 2020-08-02, sporadically reported until 2021-02-19, and then consistently reported since then
 
 D_20_29
-* Column: CU
+* Column: CW
 * Description: Confirmed deceased COVID cases across Michigan between the ages of 20 to 29
 * Values: Percentage; Integer
 * Missing values reason: This value may be missing if not applicable or not provided
 
 D_30_39
-* Column: CV
+* Column: CX
 * Description: Confirmed deceased COVID cases across Michigan between the ages of 30 to 39
 * Values: Percentage; Integer
 * Missing values reason: This value may be missing if not applicable or not provided
 
 D_40_49
-* Column: CW
+* Column: CY
 * Description: Confirmed deceased COVID cases across Michigan between the ages of 40 to 49
 * Values: Percentage; Integer
 * Missing values reason: This value may be missing if not applicable or not provided
 
 D_50_59
-* Column: CX
+* Column: CZ
 * Description: Confirmed deceased COVID cases across Michigan between the ages of 50 to 59
 * Values: Percentage; Integer
 * Missing values reason: This value may be missing if not applicable or not provided
 
 D_60_69
-* Column: CY
+* Column: DA
 * Description: Confirmed deceased COVID cases across Michigan between the ages of 60 to 69
 * Values: Percentage; Integer
 * Missing values reason: This value may be missing if not applicable or not provided
 
 D_70_79
-* Column: CZ
+* Column: DB
 * Description: Confirmed deceased COVID cases across Michigan between the ages of 70 to 79
 * Values: Percentage; Integer
 * Missing values reason: This value may be missing if not applicable or not provided
 
 D_80_plus
-* Column: DA
+* Column: DC
 * Description: Confirmed deceased COVID cases across Michigan between the ages of 80 to 89
 * Values: Percentage; Integer
 * Missing values reason: This value may be missing if not applicable or not provided
 
 D_AgeNR
-* Column: DB
+* Column: DD
 * Description: Confirmed deceased COVID cases across Michigan with unknown/not reported age
 * Values: Percentage; Integer
 * Missing values reason: This value may be missing if not applicable or not provided <br />
@@ -552,38 +566,38 @@ Note: As of 2020-08-02, this category is no longer being reported and is left as
 
 - SECTION DeceasedOverallAge - <br />
 
-Column range: DC through DF <br />
+Column range: DE through DH <br />
 TableDescription: Information from aggregated table "Age Data of Overall Deceased", taken from https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html <br />
 Date range: 2020-03-27 through 2020-06-06 <br />
 Author note: Post migration to the dashboard on 2020-06-05, this data is no longer reported <br />
 
 D_AgeMin
-* Column: DC
+* Column: DE
 * Description: The youngest age recorded among confirmed deceased COVID cases, taken from the lower end of the variable "Age Range"
 * Values: Integer
 * Missing values reason: This value is missing if not reported <br />
 
 D_AgeMax
-* Column: DD
+* Column: DF
 * Description: The oldest age recorded among confirmed deceased COVID cases, taken from the higher end of the variable "Age Range"
 * Values: Integer
 * Missing values reason: This value is missing if not reported <br />
 
 D_AgeAvg
-* Column: DE
+* Column: DG
 * Description: The average age of confirmed deceased COVID cases, taken from the variable "Average Age"
 * Values: Float, one decimal point
 * Missing values reason: This value is missing if not reported <br />
 
 D_AgeMed
-* Column: DF
+* Column: DH
 * Description: The median age of confirmed deceased COVID cases, taken from the variable "Median Age"
 * Values: Integer
 * Missing values reason: This value is missing if not reported <br />
 
 - SECTION DeceasedRace - <br />
 
-Column range: DG through DM <br />
+Column range: DI through DO <br />
 TableDescription: Information from aggregated table "Cases by Race", column "Percentage of Deceased Cases by Age", taken from https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html <br />
    TableWebsite note: Totals may not add to 100% due to rounding <br />
 DashDescription: Information from the tab "Demographics", in the subsection "Deaths by Race" using the selection "Deaths --> Confirmed", taken from https://www.michigan.gov/coronavirus/0,9753,7-406-98163_98173---,00.html <br />
@@ -592,93 +606,93 @@ Date range: Contains ongoing data after 2020-04-02 <br />
 Author note: Some percentages are recorded as "<1%", which may need to be transformed before analysis. Post migration to the dashboard on 2020-06-05, values are now presented as raw data instead of percentages <br />
 
 D_Native
-* Column: DG
+* Column: DI
 * Description: Confirmed deceased COVID cases across Michigan identifying as American Indian or Alaska Native
 * Values: Percentage; Integer
 * Missing values reason: This value may be missing if not applicable or not provided
 
 D_Asian
-* Column: DH
+* Column: DJ
 * Description: Confirmed deceased COVID cases across Michigan identifying as Asian/Pacific Islander
 * Values: Percentage; Integer
 * Missing values reason: This value may be missing if not applicable or not provided
 
 D_Black
-* Column: DI
+* Column: DK
 * Description: Confirmed deceased COVID cases across Michigan identifying as Black or African American
 * Values: Percentage; Integer
 * Missing values reason: This value may be missing if not applicable or not provided
 
 D_White
-* Column: DJ
+* Column: DL
 * Description: Confirmed deceased COVID cases across Michigan identifying as Caucasian
 * Values: Percentage; Integer
 * Missing values reason: This value may be missing if not applicable or not provided
 
 D_Many
-* Column: DK
+* Column: DM
 * Description: Confirmed deceased COVID cases across Michigan identiyfing as Multiple Races
 * Values: Percentage; Integer
 * Missing values reason: This value may be missing if not applicable or not provided
 
 D_Other
-* Column: DL
+* Column: DN
 * Description: Confirmed deceased COVID cases across Michigan identifying as Other
 * Values: Percentage; Integer
 * Missing values reason: This value may be missing if not applicable or not provided
 
 D_RaceNR
-* Column: DM
+* Column: DO
 * Description: Confirmed deceased COVID cases across Michigan of unknown/not reported race
 * Values: Percentage; Integer
 * Missing values reason: This value may be missing if not applicable or not provided <br />
 
 - SECTION DeceasedEthnicityHispanic - <br />
 
-Column range: DN through DP <br />
+Column range: DP through DQ <br />
 Description: Information from aggregated tables "Cases by Hispanic/Latino Ethnicity", column "Percentage of Deceased Cases by Ethnicity", taken from https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html <br />
 Date range: Contains ongoing data after 2020-04-02 <br />
 Website note: Totals may not add to 100% due to rounding <br />
 Author note: Some percentages are recorded as "<1%", which may need to be transformed before analysis <br />
 
 D_Hispanic
-* Column: DN
+* Column: DP
 * Description: Confirmed deceased COVID cases across Michigan identifying as Hispanic/Latino
 * Values: Percentage
 * Missing values reason: This value may be missing if not applicable or not provided
 
 D_NonHispanic
-* Column: DO
+* Column: DQ
 * Description: Confirmed deceased COVID cases across Michigan identifying as Non- Hispanic/Latino
 * Values: Percentage
 * Missing values reason: This value may be missing if not applicable or not provided
 
 D_HispanicNR
-* Column: DP
+* Column: DR
 * Description: Confirmed deceased COVID cases across Michigan with unknown Hispanic ethnic affiliation
 * Values: Percentage
 * Missing values reason: This value may be missing if not applicable or not provided <br />
 
 - SECTION DeceasedEthnicityArab - <br />
 
-Column range: DQ through DS <br />
+Column range: DS through DU <br />
 Description: Information from aggregated tables "Cases by Arab Ethnicity", column "Percentage of Deceased Cases by Ethnicity", taken from https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html <br />
 Date range: Contains ongoing data after 2020-04-17 <br />
 
 D_Arab
-* Column: DQ
+* Column: DS
 * Description: Confirmed deceased COVID cases across Michigan identifying as Arab
 * Values: Percentage
 * Missing values reason: This value may be missing if not applicable or not provided
 
 D_NonArab
-* Column: DR
+* Column: DT
 * Description: Confirmed deceased COVID cases across Michigan identiyfing as Non-Arab
 * Values: Percentage
 * Missing values reason: This value may be missing if not applicable or not provided
 
 D_ArabNR
-* Column: DS
+* Column: DU
 * Description: Confirmed deceased COVID cases across Michigan with unknown Arab ethnic affiliation
 * Values: Percentage
 * Missing values reason: This value may be missing if not applicable or not provided
@@ -1033,19 +1047,21 @@ DP_20_29
 * Description: Probable deceased COVID cases across Michigan between the ages of 20 to 29
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
-Note: As of 2020-08-02, this category is no longer being reported and is left as blank in the dataset
+Note: This category stopped being reported on 2020-08-02, and then was reinstated on 2021-11-08
 
 DP_10_19
 * Column: CU
 * Description: Probable deceased COVID cases across Michigan between the ages of 10 to 19
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
+Note: This category began being reported on 2021-04-13 and since then has appeared inconsistently in the dashboard
 
 DP_30_39
 * Column: CV
 * Description: Probable deceased COVID cases across Michigan between the ages of 30 to 39
 * Values: Integer
 * Missing values: Lack of probable deceased cases at the time of the report represented as "0"
+Note: This category first appeared between 2020-06-05 and 2020-08-01, and then was reinstated after 2021-02-07
 
 DP_40_49
 * Column: CW
