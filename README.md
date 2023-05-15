@@ -5,11 +5,15 @@ Four spreadsheets aggregating COVID probable and confirmed cases counts and demo
 
 **Author:** Daria Orlowska <br />
 **Contact:** daria.orlowska@wmich.edu <br />
-**Last Updated:** 2023-05-01 16:26 <br />
+**Last Updated:** 2023-05-15 11:28 <br />
 
 -------------------------------------------
 
 ## Spreadsheet Overviews
+**Author note:** On 2023-04-10, President Biden ended the U.S. National Emergency Response to COVID-19, and on 2023-05-11, the Public Health Emergency Order expired. Due to the impending changes in reporting, this spreadsheet will no longer be updated past the end of April 2023.
+For the full collection of the cumulative reports captured between 2020-03-10 and 2023-04-25 as part of the underlying data of these spreadsheet, please see the WMU ScholarWorks Michigan COVID-19 Hospital Data Collections: https://scholarworks.wmich.edu/michigan-covid-data-state-cumulative/ 
+**Michigan Health & Human Services Statement (2023-05-08):** This page is subject to change as a result of the end of the Public Health Emergency Order on 5/11/2023. Data will be updated as usual the week of 5/8/2023, and changes will go into effect the week of 5/15/2023. On May 11th 2023 the federal government will rescind the COVID-19 public health emergency. The Public Health Emergency ending will bring about several changes to the national response to the pandemic including discontinuing the requirement to report negative COVID-19 test results. The CDC is moving away from COVID-19 community levels in the absence of nationwide reporting of COVID-19 cases after the ending of the Public Health Emergency. In alignment with this transition, MDHHS will no longer provide weekly updates of the CDC's Community Levels. MDHHS will continue to update 7-day COVID case rates by county on a weekly basis. To access CDC resources for COVID-19 visit Coronavirus Disease 2019 (COVID-19) As of May 11, 2023 COVID testing volume and percent positivity will no longer be updated consistent with national strategies. While positive laboratory results will continue to be reportable in Michigan, negative test results will no longer be required to be reported. This means that overall COVID-19 testing volume and test % positivity will no longer be a core metric that can be reported on at the local, state, or national level. However, these data have had considerable limitations for some time since testing volume and percent positivity have never included over-the-counter (at-home) COVID-19 tests, which represent a substantial amount of the COVID-19 testing volume. Other core metrics, like Emergency Department visits, wastewater surveillance, case rates, hospitalization rates, and mortality rates are more sound metrics for measuring the burden and trends in COVID-19 epidemiology beyond the ending of the public health emergency.
+
 
 ### MichiganOverview_Cases.csv
 
